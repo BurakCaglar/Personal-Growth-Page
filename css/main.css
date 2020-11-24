@@ -7,6 +7,14 @@
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* BUTTONS */
 .btn {
   padding: 1.4rem 3rem;

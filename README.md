@@ -1,4 +1,4 @@
-# Personal-Growth-Page
+# Personal Growth Page
 
 <a href="https://personal-growth-page.vercel.app/">Live</a>
 

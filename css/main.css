@@ -50,7 +50,7 @@ header nav .btn:hover {
   }
 }
 
-.fullscreen {
+section {
   background-image: url(/images/background.jpg);
   height: 100vh;
   width: 100vw;
@@ -59,19 +59,19 @@ header nav .btn:hover {
   background-repeat: no-repeat;
 }
 
-.fullscreen .header-content {
+section .header-content {
   position: absolute;
   top: 25%;
 }
 
-.fullscreen .header-content h1 {
+section .header-content h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 7rem;
   line-height: 1;
   color: #295853;
 }
 
-.fullscreen .header-content h6 {
+section .header-content h6 {
   font-family: 'Be Vietnam', sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
@@ -79,14 +79,14 @@ header nav .btn:hover {
   color: #4b9b86;
 }
 
-.fullscreen .header-content p {
+section .header-content p {
   font-family: 'Be Vietnam', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #999999;
 }
 
-.fullscreen .header-content .btn {
+section .header-content .btn {
   opacity: .6;
 }
 

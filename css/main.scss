@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+$h1-font: 'Cormorant Garamond', serif;
+
+/* BUTTONS */
+
+.btn {
+    padding: 1.4rem 3rem;
+    border-radius: .5rem;
+    letter-spacing: .1rem;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+
+header {
+    nav {
+        .btn {
+            padding: 0.6rem 1.2rem;
+            background-color: #d58f76 !important;
+            border-color: #d58f76 !important;
+            color: #ffffff !important;
+            border-radius: .5rem;
+            
+            &:hover {
+                color: #ffffff !important;
+                background-color: #c35f3c !important;
+                border-color: #c35f3c !important;
+              
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            text-align: center;
+        }
+    }
+  }
+
+.fullscreen {
+    background-image: url(/images/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+        .header-content {
+            position: absolute;
+            top: 25%;
+
+            
+                        
+        h1 {
+            font-family: $h1-font;
+            font-size: 7rem;
+            line-height: 1;
+            color: #295853;
+        }
+
+        h6 {
+            font-family: 'Be Vietnam', sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            letter-spacing: 0.2rem;
+            color: #4b9b86;
+        }
+
+        p {
+            font-family: 'Be Vietnam', sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #999999;
+        }
+
+            .btn {
+                opacity: .6;
+            }
+
+        }
+
+
+        
+
+        
+        
+}
+
+section-about {
+
+        .about {
+            margin-top: 7rem;
+        }
+     
+        
+            h6 {
+                font-family: 'Be Vietnam', sans-serif;
+                font-size: .8rem;
+                line-height: 1.5;
+                letter-spacing: 0.2rem;
+                font-weight: 400;
+                color: #4b9b86;
+        
+            }
+        
+            h1 {
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 2.7rem;
+                line-height: 1.1;
+                color: #295853;
+        
+            }
+        
+            p {
+                font-family: 'Be Vietnam', sans-serif;
+                font-size: 1rem;
+                line-height: 1.6;
+                font-weight: 300;
+                color: #999999;
+                
+            }
+
+            h5 {
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 3rem;
+                line-height: 1;
+                cursor: pointer;
+                color: #295853;
+                
+            }
+
+            .card {
+                background-color: #295853;
+                padding: 4rem 2rem;
+                
+                
+                h5, h6 {
+                color: #fff;
+                }
+                input{
+                    display: inline;
+                    padding: 2rem 1.5rem;
+                }
+
+                .btn {
+                    opacity: 1;
+                }
+
+               .btn-success {
+                background-color: #aeddc2 !important;
+                border-color: #aeddc2 !important;
+                color: #296342 !important;
+
+                &:hover {
+                    color: #296342 !important;
+                    background-color: #78c699 !important;
+                    border-color: #78c699 !important;
+                }
+               }
+                    
+                
+            }         
+}
+
+

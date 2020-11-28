@@ -23,7 +23,7 @@ a:hover {
   font-family: 'Be Vietnam', sans-serif;
 }
 
-header nav .btn {
+nav .btn {
   padding: 0.6rem 1.2rem;
   background-color: #d58f76 !important;
   border-color: #d58f76 !important;
@@ -31,7 +31,7 @@ header nav .btn {
   border-radius: .5rem;
 }
 
-header nav .btn:hover {
+nav .btn:hover {
   color: #ffffff !important;
   background-color: #c35f3c !important;
   border-color: #c35f3c !important;
@@ -60,6 +60,7 @@ header nav .btn:hover {
 
 section {
   background-image: url(/images/background.jpg);
+  background-position: center;
   height: 100vh;
   width: 100vw;
   position: relative;
